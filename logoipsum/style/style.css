@@ -1,0 +1,248 @@
+@import "font.css";
+
+:root {
+    --dmb700: 'DMSans-bold';
+    --dmr400: 'DMSans-Regular';
+    --mr400:  'Mulish-Regular';
+    --rr400:  'Roboto-Regular';
+    --gray: #696871;
+    --white: #FFFFFF;
+    --black: #19191B;
+    --orange: #FF7143;
+    --blue: #5454D4;
+    --darkorange:#9F3919;
+    --lightGray: #F8F8F8;
+}
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    width: 100%;
+}
+
+
+
+
+/* header start */
+
+.header__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    padding: 30px 0;
+}
+.header__nav-list{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header__nav-item:not(:last-child) {
+    margin-right: 49px;
+}
+
+.header__nav-link{
+    font-family: var(--dmb700);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 20px;
+    color: var(--gray);
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;    
+}
+
+.header__nav-item {
+    height: 100%;
+}
+
+.header__nav-link:after {
+    content: ' ' ;
+    position: absolute;
+    bottom: 0;
+    width: 0px;
+    height: 2px;
+    background: var(--blue);
+    display: inline-block;
+    transition: .3s;
+}
+.header__nav-link:hover {
+    color: var(--black)
+}
+
+.header__nav-link:hover::after {
+    width: 100%;
+
+}
+
+.header__nav-btn{
+    color: var(--white);
+    background: var(--orange);
+    cursor: pointer;
+    border: none;
+    font-family: var(--dmb700);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    padding: 19px 60px;
+    border-radius: 10px;
+    transition: .3s;
+
+}
+
+
+
+.header__nav-btn:hover {
+    background: var(--blue);
+}
+
+.header__content-content{
+    display: flex;
+    align-items: center;
+    
+}
+
+.header__content-title {
+    font-family: var(--dmb700);
+    font-style: 700;
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 77px;
+
+} 
+
+.header__content-text  {
+    font-family: var(--mr400);
+    font-style: 400;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    max-width: 459px;
+    margin: 30px 0 50px 0;
+}
+
+.header__content-buttoms {
+    display: flex;
+    align-items: center;
+}
+
+.header__content-button {
+    color: var(--white);
+    background: var(--blue);
+    cursor: pointer;
+    border: none;
+    font-family: var(--dmb700);
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+    text-align: center;
+    padding: 19px 60px;
+    border-radius: 10px;
+    transition: .3s;
+}
+
+.header__content-button:hover {
+    background: var(--orange);
+}
+
+.header__content-icon{
+    background: #FFFFFF;
+    border: 1px solid #E7E7E7;
+    border-radius: 50%;
+    margin-left: 40px;
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s;
+    
+}
+
+.header__content-icon:hover {
+    background: var(--blue);
+    color: white;
+}
+
+/* header end */
+
+
+
+
+
+/* main start */
+
+.main__logo {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.main__content-content{
+    display: flex;
+    align-items: center;
+    
+}
+
+.main__content-img{
+    
+    width: 348.5px;
+    height: 473px;
+    left: 184px;
+    top: 1132px;
+    margin-top: 160px;
+    margin-right: 165px;
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main__content-text{ 
+    font-family: var(--dmr400);
+    font-style: 400;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    color: #19191B;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.main__content-text{
+    font-family: var(--dmb700);
+    font-style: 700;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 57px;
+    color: #19191B;
+    display: flex;
+
+}
+
+.main__content-mini-text{
+    width: 460px;
+    height: 90px;
+    font-family: var(--mr400);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #696871;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+
+
+
+/* main end */

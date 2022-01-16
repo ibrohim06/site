@@ -1,0 +1,16 @@
+@font-face {
+    font-family: 'DMSans-bold';
+    src: url(../fonts/dm/DMSans-Bold.ttf);
+}
+@font-face {
+    font-family: 'DMSans-Regular';
+    src: url(../fonts/dm/DMSans-Regular.ttf);
+}
+@font-face {
+    font-family: 'Mulish-Regular';
+    src: url(../fonts/mulish/Mulish-Regular.ttf);
+}
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
